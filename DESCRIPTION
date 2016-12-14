@@ -1,7 +1,7 @@
 Package: tsbugs
 Type: Package
 Title: Create time series BUGS models.
-Version: 1.3
+Version: 1.4
 Author: Guy J. Abel
 Maintainer: "Guy J. Abel" <g.j.abel@gmail.com>
 Depends: R(>= 2.15.0)

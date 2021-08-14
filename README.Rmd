@@ -36,7 +36,7 @@ The package is no longer on CRAN.
 The functions in the tsbugs package are aimed to automate the writing of time series models to run in <a href="http://www.mrc-bsu.cam.ac.uk/bugs/welcome.shtml">WinBUGS</a> or <a href="http://www.openbugs.net/w/FrontPage">OpenBUGS</a>. I created these functions when working on [model averaging for time series models](https://www.demographic-research.org/volumes/vol29/43/default.htm). I found it a lot easier to build R functions to write the BUGS models than the more error-inducing process of copy and pasting BUGS scripts, and then making slight alterations to create new models. It also allowed me to add arguments to specify different lag lengths, prior distributions, variance assumptions and data lengths. Below are examples for three types of time series models; autorgressive models with 
   
   - [Constant variance](https://github.com/guyabel/tsbugs#autoregressive-models)
-  - [Stochastic volatility](https://github.com/guyabel/tsbugs#stochastic-volatility)
+  - [Stochastic volatility](https://github.com/guyabel/tsbugs#stochastic-volatility-models)
   - [Random variance shift models](https://github.com/guyabel/tsbugs#random-variance-shift-models)
 
 ## Autoregressive Models

@@ -37,7 +37,7 @@ for three types of time series models; autorgressive models with
 -   [Constant
     variance](https://github.com/guyabel/tsbugs#autoregressive-models)
 -   [Stochastic
-    volatility](https://github.com/guyabel/tsbugs#stochastic-volatility)
+    volatility](https://github.com/guyabel/tsbugs#stochastic-volatility-models)
 -   [Random variance shift
     models](https://github.com/guyabel/tsbugs#random-variance-shift-models)
 

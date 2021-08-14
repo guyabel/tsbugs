@@ -32,9 +32,14 @@ than the more error-inducing process of copy and pasting BUGS scripts,
 and then making slight alterations to create new models. It also allowed
 me to add arguments to specify different lag lengths, prior
 distributions, variance assumptions and data lengths. Below are examples
-for three types of time series models; autorgressive models with -
-constant variance, - stochastic volatility - random variance shift
-models.
+for three types of time series models; autorgressive models with
+
+-   [Constant
+    variance](https://github.com/guyabel/tsbugs#autoregressive-models)
+-   [Stochastic
+    volatility](https://github.com/guyabel/tsbugs#stochastic-volatility)
+-   [Random variance shift
+    models](https://github.com/guyabel/tsbugs#random-variance-shift-models)
 
 ## Autoregressive Models
 
@@ -157,7 +162,7 @@ fan(lhnew.mcmc, start=k0+1, rcex=0.5)
 
 <a href="http://gjabel.files.wordpress.com/2014/03/tsbugs1-cvforc.png"><img class="aligncenter size-full wp-image-1220" src="http://gjabel.files.wordpress.com/2014/03/tsbugs1-cvforc.png" alt="tsbugs1-cvforc" width="600" height="600" /></a>
 
-\#\#Stochastic Volatility Models
+## Stochastic Volatility Models
 
 The `sv.bugs` command builds a BUGS script for stochastic volatility SV
 models ready to use in R2OpenBUGS. For example, consider the `svpdx`
@@ -209,8 +214,8 @@ print(sv0$bug)
 #> [29] "}"
 ```
 
-This model closely matches those presented
-in<br /><a href="http://onlinelibrary.wiley.com/doi/10.1111/1368-423X.00046/abstract">Meyer
+This model closely matches those presented in
+<a href="http://onlinelibrary.wiley.com/doi/10.1111/1368-423X.00046/abstract">Meyer
 and Yu (2002)</a>. There are further options in the tsbugs package to
 incorporate different priors that do not involve transformations such as
 those for `psi1` above. Using R2OpenBUGS we can fit the model,
